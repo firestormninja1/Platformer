@@ -195,7 +195,7 @@ def main():
             player.x_move = 0
             
         player.y_momentum = y_momentum
-        y_momentum += 0.4
+        y_momentum += 0.45
         in_air += 0.5
 
         if player.y_momentum > 7:
@@ -239,7 +239,7 @@ def main():
         
         
         pygame.display.update()
-        clock.tick(60)
+        clock.tick(65)
 
 if __name__ == '__main__':
     main()
