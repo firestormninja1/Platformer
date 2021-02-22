@@ -6,4 +6,5 @@ Platformer v1
 - If you run these in Atom an error will pop up regarding the images/file imports because of the way directories are handled in atom, so you'll have to edit the code and anywhere you see pygame.image.load you'll need to insert the absolute path of wherever the files for this 'platformer' are saved. It should run fine in any other IDE ie (well so far, Python IDE, sublime, VS and pycharm seem to be working fine on my end)
 - put all images in a folder called 'images'
 - and maps.txt in a folder called maps (yh ik its bad name choices :/ )
+- repl.it link: https://repl.it/@HarshrajPatel/AdmiredForsakenApplicationprogram#maps.txt
 
