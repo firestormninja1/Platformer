@@ -135,8 +135,7 @@ if __name__ == '__main__':
             a.append(x.identifier)
         final.append(a)
         a = []
-    save = 'C:/Users/Harsh/Desktop/A level CS/Pygame/Simple platformer/Game/maps/maps.txt'
-    name = os.path.join(save,'map.txt')
+    save = 'maps.txt'
 
     with open(save,'w') as file:
         for i in final:
