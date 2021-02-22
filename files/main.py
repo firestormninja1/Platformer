@@ -1,4 +1,4 @@
-#version 3
+#version 4
 #---------------------------------------------------------------------------
 import pygame
 import sys
@@ -120,7 +120,7 @@ def main():
     
 
     game_map = []
-    with open('C:/Users/Harsh/Desktop/A level CS/Pygame/Simple platformer/Game/maps/maps.txt','r') as map_file:
+    with open('maps.txt','r') as map_file:
         f = map_file.read()
         steps = ref.get_block_x()
         start = steps
